@@ -44,7 +44,7 @@ function Card() {
               <a href={encodeURI(`https://www.twitter.com/intent/tweet?text=${quote} -${author}`)} target="_blank" className="btn btn-primary col-sm-1" id="tweet-quote" title="Tweet this quote!"> <FontAwesomeIcon icon={faTwitter} /> </a>
               {/* <a href={encodeURI(`https://www.facebook.com/sharer/tweet?text=${quote}  ${author}`)} target="_blank" className="btn btn-primary col-sm-1" id="share-quote"  title="Post this quote on facebook!"><FontAwesomeIcon icon={faFacebook} /></a> */}
               <p className='col-sm-9 border-0'></p>
-              <button className="btn btn-primary col-sm-2" id="new-quote" onClick={changeQuote}>Next Quote</button>
+              <button className="btn btn-danger col-sm-2" id="new-quote" onClick={changeQuote}>Next Quote</button>
             </div>
             
             
